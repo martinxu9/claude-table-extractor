@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "claude-table-extractor"
+version = "0.1.0"
+description = ""
+authors = ["Martin Xu <15661672+martinxu9@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+anthropic = "^0.23.1"
+reflex = "^0.4.6"
+pillow = "^10.3.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.3.5"
+black = "^24.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
